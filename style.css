@@ -162,14 +162,14 @@ a {
   display: block;
 }
 .package-card {
-  padding: 0 0 80px;
+  padding: 0 0 24px;
   border-top: 1px solid var(--ink);
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   column-gap: clamp(60px, 10vw, 140px);
 }
 .package-card + .package-card {
-  padding-top: 90px;
+  padding-top: 60px;
 }
 .package-title {
   margin: 28px 0 0;
@@ -177,14 +177,16 @@ a {
 }
 .package-title span {
   display: block;
+  margin-bottom: 18px;
   color: var(--wine);
   font: 400 clamp(60px, 7vw, 100px) var(--script);
-  line-height: 0.7;
+  line-height: 0.68;
 }
 .package-title small {
   display: block;
+  margin-top: 0;
   font: 500 12px var(--sans);
-  letter-spacing: 0.14em;
+  letter-spacing: 0.18em;
   text-transform: uppercase;
 }
 .package-note {
